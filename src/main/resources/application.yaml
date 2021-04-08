@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    clickhouse:
+      address: jdbc:clickhouse://192.168.252.250:8123
+      username: default
+      password:
+      db: system
+      socketTimeout: 600000
